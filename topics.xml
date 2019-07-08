@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<topics>
+    <topic parent_id="javascript" id="ajax" name="AJAX" type="sub"/>
+    <topic parent_id="javascript" id="angular_js" name="AngularJS" type="sub"/>
+    <topic parent_id="servers" id="application_servers" name="Application Servers" type="sub"/>
+    <topic parent_id="core_java" id="basics_java" name="Basics" type="sub"/>
+    <topic parent_id="os" id="basics_os" name="Basics" type="sub"/>
+    <topic parent_id="dsa" id="binary_trees" name="Binary Trees" type="sub"/>
+    <topic parent_id="core_java" id="classloader" name="Class Loader" type="sub"/>
+    <topic parent_id="core_java" id="collections" name="Collections" type="sub"/>
+    <topic parent_id="home" id="core_java" name="Core Java" type="main"/>
+    <topic parent_id="web_development" id="css" name="CSS" type="sub"/>
+    <topic parent_id="home" id="database" name="Database" type="main"/>
+    <topic parent_id="database" id="db_mongoDB" name="MongoDB" type="sub"/>
+    <topic parent_id="database" id="db_neo4j" name="Neo4j" type="sub"/>
+    <topic parent_id="home" id="design_architecture" name="Design &amp; Architecture" type="main"/>
+    <topic parent_id="design_architecture" id="design_patterns" name="Design Patterns" type="sub"/>
+    <topic parent_id="home" id="dsa" name="Data Structures &amp; Algorithms" type="main"/>
+    <topic parent_id="dsa" id="dsa_arrays" name="Arrays" type="sub"/>
+    <topic parent_id="dsa" id="dsa_dp" name="Dynamic Programming" type="sub"/>
+    <topic parent_id="dsa" id="dsa_queues" name="Queues" type="sub"/>
+    <topic parent_id="dsa" id="dsa_searching" name="Searching" type="sub"/>
+    <topic parent_id="dsa" id="dsa_stacks" name="Stacks" type="sub"/>
+    <topic parent_id="dsa" id="dsa_strings" name="Strings" type="sub"/>
+    <topic parent_id="core_java" id="exceptions" name="Exceptions" type="sub"/>
+    <topic parent_id="home" id="frameworks" name="Frameworks" type="main"/>
+    <topic parent_id="design_architecture" id="general_da" name="General" type="sub"/>
+    <topic parent_id="dsa" id="graph" name="Graphs" type="sub"/>
+    <topic parent_id="dsa" id="hashing" name="Hashing" type="sub"/>
+    <topic parent_id="dsa" id="heap" name="Heap" type="sub"/>
+    <topic parent_id="frameworks" id="hibernate" name="Hibernate" type="sub"/>
+    <topic parent_id="web_development" id="html" name="HTML" type="sub"/>
+    <topic parent_id="web_development" id="http" name="HTTP" type="sub"/>
+    <topic parent_id="core_java" id="io_streams_files" name="I/O Streams" type="sub"/>
+    <topic parent_id="home" id="j2ee" name="J2EE" type="main"/>
+    <topic parent_id="home" id="javascript" name="JavaScript" type="main"/>
+    <topic parent_id="core_java" id="java_reflections" name="Reflections" type="sub"/>
+    <topic parent_id="core_java" id="java_serialization " name="Serialization" type="sub"/>
+    <topic parent_id="j2ee" id="jdbc" name="JDBC" type="sub"/>
+    <topic parent_id="j2ee" id="jms" name="JMS" type="sub"/>
+    <topic parent_id="j2ee" id="jndi" name="JNDI" type="sub"/>
+    <topic parent_id="javascript" id="jquery" name="JQuery" type="sub"/>
+    <topic parent_id="j2ee" id="jsps" name="JSPs" type="sub"/>
+    <topic parent_id="testing" id="junits" name="JUnits" type="sub"/>
+    <topic parent_id="dsa" id="linkedlist_dsa" name="Linked List" type="sub"/>
+    <topic parent_id="os" id="linux" name="Linux" type="sub"/>
+    <topic parent_id="testing" id="manual_testing" name="Manual Testing" type="sub"/>
+    <topic parent_id="core_java" id="memory_java" name="Memory" type="sub"/>
+    <topic parent_id="web_services" id="odata" name="OData API" type="sub"/>
+    <topic parent_id="core_java" id="oops" name="OOPS" type="sub"/>
+    <topic parent_id="home" id="os" name="Operating System" type="main"/>
+    <topic parent_id="javascript" id="plain_javascript" name="Plain/Vanilla Javascript" type="sub"/>
+    <topic parent_id="database" id="pl_sql" name="PL/SQL" type="sub"/>
+    <topic parent_id="home" id="puzzles" name="Puzzles" type="main"/>
+    <topic parent_id="database" id="rdbms" name="RDBMS" type="sub"/>
+    <topic parent_id="dsa" id="recursion" name="Recursion" type="sub"/>
+    <topic parent_id="web_services" id="rest_api" name="REST API" type="sub"/>
+    <topic parent_id="home" id="sap_sf" name="SuccessFactors" type="main"/>
+    <topic parent_id="frameworks" id="seam" name="Seam" type="sub"/>
+    <topic parent_id="design_architecture" id="security" name="Security" type="sub"/>
+    <topic parent_id="testing" id="selenium" name="Selenium" type="sub"/>
+    <topic parent_id="j2ee" id="servers" name="Servers" type="sub"/>
+    <topic parent_id="j2ee" id="servlets" name="Servlets" type="sub"/>
+    <topic parent_id="j2ee" id="session_j2ee" name="Session Management" type="sub"/>
+    <topic parent_id="sap_sf" id="sf_db" name="Database" type="sub"/>
+    <topic parent_id="sap_sf" id="sf_ec" name="Employee Central" type="sub"/>
+    <topic parent_id="sap_sf" id="sf_juic" name="JUIC" type="sub"/>
+    <topic parent_id="sap_sf" id="sf_mdf" name="MDF" type="sub"/>
+    <topic parent_id="web_services" id="soap" name="SOAP" type="sub"/>
+    <topic parent_id="dsa" id="sorting" name="Sorting" type="sub"/>
+    <topic parent_id="frameworks" id="spring" name="Spring" type="sub"/>
+    <topic parent_id="database" id="sql" name="SQL" type="sub"/>
+    <topic parent_id="core_java" id="static" name="Static" type="sub"/>
+    <topic parent_id="core_java" id="strings_corejava" name="Strings" type="sub"/>
+    <topic parent_id="home" id="testing" name=" Testing" type="main"/>
+    <topic parent_id="core_java" id="threads" name="Threads" type="sub"/>
+    <topic parent_id="design_architecture" id="uml" name="UML" type="sub"/>
+    <topic parent_id="home" id="web_development" name="Web Development" type="main"/>
+    <topic parent_id="web_development" id="web_development_dom" name="DOM" type="sub"/>
+    <topic parent_id="servers" id="web_servers" name="Web Servers" type="sub"/>
+    <topic parent_id="home" id="web_services" name="Web Services" type="main"/>
+    <topic parent_id="design_architecture" id="xml_xslt" name="XML/XSLT" type="sub"/>
+</topics>

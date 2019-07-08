@@ -1,0 +1,38 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-4.0.xsd">
+
+	<http auto-config="true">
+		<intercept-url pattern="/admin/home/**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/admin/topic/**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/admin/questions/**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/rest/**" method="POST" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/rest/**" method="PUT" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/rest/**" method="DELETE" access="hasRole('ROLE_ADMIN')" />
+		
+		<form-login 
+		    login-page="/login"
+		    default-target-url="/admin/home"
+		    login-processing-url="/j_spring_security_check"
+			authentication-failure-url="/login" 
+			username-parameter="username"
+			password-parameter="password" />
+		<!-- <logout logout-success-url="/login"  /> -->
+		<logout logout-url="/j_spring_security_logout" logout-success-url="/login"  />
+		<!-- enable csrf protection -->
+		<!-- <csrf/> -->
+		<csrf disabled="true"/>
+	</http>
+
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<user name="pfi" password="Welcome123" authorities="ROLE_ADMIN" />
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+
+</beans:beans>
